@@ -2,4 +2,4 @@
 * Java 11
 * MoonLoader
 * SAMPFUNCS
-* socket.lua
+* [LuaSocket]: https://blast.hk/threads/16031/
