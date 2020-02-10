@@ -2,4 +2,4 @@
 * Java 11
 * MoonLoader
 * SAMPFUNCS
-* [LuaSocket](https://blast.hk/threads/16031/)
+* [LuaSocket - extract attached archive and drag the contents of LuaSocket to moonloader/lib](https://blast.hk/threads/16031/)
