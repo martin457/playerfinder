@@ -1,5 +1,4 @@
 require "lib.moonloader"
-local sampev = require 'lib.samp.events'
 require "lib.sampfuncs"
 
 local host, port = "127.0.0.1", 5230
