@@ -24,3 +24,6 @@ Everything else is provided in this repository. Running `gradlew jar` in the Jav
 * When they are close to you, you will also receive additional information such as their health/armor, current car/weapon and skin and more frequent location updates
 * To stop finding people, just press Numpad+ again.
 * To close the Java application, make it active by clicking on it and then hit ESC.
+
+# Credits
+
