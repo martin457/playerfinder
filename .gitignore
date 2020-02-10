@@ -1,0 +1,8 @@
+.idea
+.gradle
+build
+src/main/resources/gui/*.png
+out
+
+
+.DS_Store
