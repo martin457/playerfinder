@@ -1,9 +1,8 @@
-.idea
-.gradle
-build
-src/main/resources/gui/*.png
-out
-
+JavaFxApplication/.idea
+JavaFxApplication/.gradle
+JavaFxApplication/build
+JavaFxApplication/src/main/resources/gui/*.png
+JavaFxApplication/out
+JavaFxApplication//src/main/generated/
 
 .DS_Store
-/src/main/generated/
