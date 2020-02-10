@@ -11,6 +11,6 @@
 3) Extract the remaining two files and run them both. PrioritizeWindow.exe requires admin privileges to display the map over SAMP.
 4) Run SAMP and you should see a second minimap over your game
 
-To build the Java application manually, you will need to find your own skin & map images and place all 313 of them into src/main/resources as follows: (https://i.imgur.com/Xju8ws0.png)
+To build the Java application manually, you will need to find your own skin & map images and place all 313 of them into src/main/resources as follows: ![img](https://i.imgur.com/TAF8HRe.png "Structure")
 
 Everything else is provided in this repository. Running `gradlew jar` in the Java project root will build the jar.
