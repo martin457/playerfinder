@@ -17,7 +17,7 @@ This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to f
 
 If you would like to build the Java application manually, you will need to find your own skin & map images and place all 313 of them into `src/main/resources` as follows: [img](https://i.imgur.com/TAF8HRe.png "Structure")
 
-Everything else is provided in this repository. Running `gradlew jar` in the Java project root will build the jar.
+Running `gradlew jar` in the Java project root will then build the jar. Sources for everything else, including the lua script and the AHK script used to display the map over SAMP are present in this repo.
 
 # Usage
 * While in game with the Java application running, hold NUMPAD+ and type the ID of a player you would like to find. If they are connected and in the same interior as you, you should now begin to receive real-time location updates.
