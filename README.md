@@ -27,5 +27,5 @@ Everything else is provided in this repository. Running `gradlew jar` in the Jav
 * To close the Java application, make it active by clicking on it and then hit ESC.
 
 # Credits
-* Fyp. None of this would be possible without his extensive research
+* [FYP](https://github.com/THE-FYP). All of this would have been way harder without all the samp hacking tools he's graciously published over the past decade.
 * [this jlink project i used as a starting point](https://bitbucket.org/FlPe/javafx_jlink_example/src/master/)
