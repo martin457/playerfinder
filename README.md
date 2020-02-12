@@ -4,7 +4,7 @@ This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to f
 
 # Requirements
 * [JDK 11](https://jdk.java.net/archive/)
-* [AutoHotkey](https://www.autohotkey.com/) (if you wish to compile the AHK script yourself).
+* [AutoHotkey](https://www.autohotkey.com/) - if you wish to compile the AHK script yourself.
 * [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) - MoonLoader requires an ASI loader, if you don't already have CLEO, install it.
 * [SAMPFUNCS](https://blast.hk/threads/17/page-138#post-279414)
 * [LuaSocket](https://blast.hk/threads/16031/)
