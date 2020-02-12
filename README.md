@@ -1,5 +1,7 @@
 # Player finder
-This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to find other players while playing & recording without it showing up on your recordings. This only works on players that are in the same interior as you. On the SAMP side, a Lua script is used to read information such as real-time player coordinates, name, skin, current vehicle, gun, etc. Sockets are used to forward this information to a Java application. The Java application listens for updates at localhost:5230 and displays the received data on a map. To display the map over SAMP, an autohotkey script is used, which must be run with admin privileges. This solution is p hacky but I'm not rewriting this. You, however, are more than welcome to.
+This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to find other players while playing & recording without it showing up on your recordings. This only works on players that are in the same interior as you. 
+
+On the SAMP side, a Lua script is used to read information such as real-time player coordinates, name, skin, current vehicle, gun, etc. Sockets are used to forward this information to a Java application. The Java application listens for updates at localhost:5230 and displays the received data on a map. To display the map over SAMP, an autohotkey script is used, which must be run with admin privileges. This solution is p hacky but I'm not rewriting this. You, however, are more than welcome to.
 ![img](https://i.imgur.com/AOXesbX.jpg)
 
 # Requirements
