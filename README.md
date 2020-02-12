@@ -3,11 +3,11 @@ This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to f
 ![img](https://i.imgur.com/AOXesbX.jpg)
 
 # Requirements
-* JDK 11
+* [JDK 11](https://jdk.java.net/archive/)
 * [AutoHotkey](https://www.autohotkey.com/) (if you wish to compile the AHK script yourself).
-* [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) - requires an ASI loader, if you don't already have CLEO, install it.
-* [SAMPFUNCS](http://ugbase.eu/index.php?threads/sampfuncs-5-3-0-3-7.14796/) - place inside your GTA SA folder.
-* [LuaSocket](https://blast.hk/threads/16031/) - extract the attached archive and drag the contents of LuaSocket into `moonloader/lib`.
+* [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) - MoonLoader requires an ASI loader, if you don't already have CLEO, install it.
+* [SAMPFUNCS](https://blast.hk/threads/17/page-138#post-279414)
+* [LuaSocket](https://blast.hk/threads/16031/)
 
 # Installation
 1) Download this [archive](https://www.upload.ee/files/11111883/playerfinder.rar.html) containing a jar file, a lua script and a compiled AHK script.
@@ -27,5 +27,5 @@ Running `gradlew jar` in the Java project root will then build the jar. Sources 
 * To close the Java application, make it active by clicking on it and then hit ESC.
 
 # Credits
-* [FYP](https://github.com/THE-FYP). All of this would have been way harder without all the samp hacking tools he's graciously published over the past decade.
+* [FYP](https://github.com/THE-FYP). All of this would have been way harder without the samp hacking tools he's graciously published over the past decade.
 * [this jlink project i used as a starting point.](https://bitbucket.org/FlPe/javafx_jlink_example/src/master/)
