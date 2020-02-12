@@ -8,14 +8,17 @@ This is a shadowplay-friendly player finder for SAMP 0.3.7 that you can use to f
 * [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) - MoonLoader requires an ASI loader, if you don't already have CLEO, install it.
 * [SAMPFUNCS](https://blast.hk/threads/17/page-138#post-279414)
 * [LuaSocket](https://blast.hk/threads/16031/)
+* [SAMP.Lua](https://github.com/THE-FYP/SAMP.Lua)
 
 # Installation
-1) Download this [archive](https://www.upload.ee/files/11111883/playerfinder.rar.html) containing a jar file, a lua script and a compiled AHK script.
-2) Place playerfinder.lua inside your moonloader folder.
-3) Extract the remaining two files and run them both. PrioritizeWindow.exe requires admin privileges to display the map over SAMP.
-4) Run SAMP and you should see a second minimap over your game.
+1) Install [CLEO](https://cleo.li/) and [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) if you haven't already.
+2) Download and unzip [THIS ARCHIVE](https://www.upload.ee/files/11111883/playerfinder.rar.html). It contains SAMPFUNCS, SAMP.Lua, LuaSocket, playerfinder.lua, the java app to display a second map over your game, and an AHK file to give the java app priority over SAMP.
+3) Drag the contents of the archive's gta san andreas folder into your gta san andreas folder.
+4) Run playerfinder.jar. An empty minimap should appear.
+5) Run PrioritizeWindow.exe. It requires admin privileges to display the map over SAMP.
+6) Run SAMP and you should see the minimap appear over your game.
 
-If you would like to build the Java application manually, you will need to find your own skin & map images and place all 313 of them into `src/main/resources` as follows: [img](https://i.imgur.com/TAF8HRe.png "Structure")
+If you would like to build the Java application manually, you will need to download the [skin & map images](https://www.upload.ee/files/11121136/gui.rar.html) and place all 313 of them into `src/main/resources` as follows: [img](https://i.imgur.com/TAF8HRe.png "Structure")
 
 Running `gradlew jar` in the Java project root will then build the jar. Sources for everything else, including the lua script and the AHK script used to display the map over SAMP are present in this repo.
 
