@@ -5,7 +5,7 @@ local host, port = "127.0.0.1", 5230
 local socket = require("socket")
 local weapons = require 'game.weapons'
 
-HOLD_NUMPAD = "Hold NUMPAD+ to begin"
+local HOLD_NUMPAD = "Hold NUMPAD+ to begin"
 
 function main()
   while not isSampAvailable() do wait(0) end
@@ -85,15 +85,13 @@ function get_streamed_info(ped, id, x1, y1, z1)
 end
 
 function get_additional_info(ped)
-	local additional_info = ""
 	if isCharInAnyCar(ped) then
 		local model = getCarModel(getCarCharIsUsing(ped))
-		additional_info = getNameOfVehicleModel(model)
+		return getNameOfVehicleModel(model)
 	else
 		local weapon, _, _ = getCurrentCharWeapon(ped)
-		additional_info = weapons.get_name(weapon)
+		return weapons.get_name(weapon)
 	end
-	return additional_info
 end
 
 function connect()
