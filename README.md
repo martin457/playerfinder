@@ -14,7 +14,7 @@ On the SAMP side, a Lua script is used to read information such as real-time pla
 
 # Installation
 1) Install [CLEO](https://cleo.li/) and [MoonLoader](https://gtaforums.com/topic/890987-moonloader/) if you haven't already.
-2) Download and unzip [THIS ARCHIVE](https://www.upload.ee/files/11121066/playerfinder.rar.html). It contains SAMPFUNCS, SAMP.Lua, LuaSocket, playerfinder.lua, the java app to display a second map over your game, and a compiled AHK file to give the java app priority over SAMP.
+2) Download and unzip [THIS ARCHIVE](https://drive.google.com/file/d/1zBZlq9cK74Osc22R1kFN_iBukQSnncWU/view?usp=sharing). It contains SAMPFUNCS, SAMP.Lua, LuaSocket, playerfinder.lua, the java app to display a second map over your game, and a compiled AHK file to give the java app priority over SAMP.
 3) Drag the contents of the archive's gta san andreas folder into your gta san andreas folder.
 4) Run playerfinder.jar. An empty minimap should appear.
 5) Run PrioritizeWindow.exe. It requires admin privileges to display the map over SAMP.
